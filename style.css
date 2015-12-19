@@ -78,7 +78,7 @@ h2 {
 
 #container {
    min-height:100%;
-   position:relative;
+   position:fixed;
 }
 
 #body {
