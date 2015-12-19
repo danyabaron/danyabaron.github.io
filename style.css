@@ -1,17 +1,14 @@
 
 html {
-  height: 100%
+  position: relative;
+  min-height: 100%;
 }
 body {
 	background-color: #d9d9ff ;
 background-image: url("http://www.transparenttextures.com/patterns/brushed-alum-dark.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-margin:0px;
+margin:0 0 100px;
   padding:0px;
-   height:100%;
-}
-* {
-  margin: 0;
 }
 
 .starter-template {
@@ -79,27 +76,21 @@ h1 {
 h2 {
   text-align: center;
   font-family: 'BebasNeue';
-  
-
 }
 
-#container {
-   min-height:100%;
-   height: auto !important;
-   height: 100%;
-   margin: 0 auto -155px;
-   position:fixed;
-}
 
 #body {
    padding:500px;
-   padding-bottom:70px;   /* Height of the footer */
+   padding-bottom:70px;
+   margin:0 auto;  /* Height of the footer */
 }
 #footer {
-   position: fixed;
-   bottom:0px;
+   position: absolute;
+   bottom:0;
+   left: 0;
    width:100%;
    height:20px;   /* Height of the footer */
+   overflow: hidden;
    background: rgba(255, 255, 255, 0.5);
    text-align: center;
    font-family: 'BebasNeue';
