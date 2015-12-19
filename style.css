@@ -1,4 +1,7 @@
 
+html {
+  height: 100%
+}
 body {
 	background-color: #d9d9ff ;
 background-image: url("http://www.transparenttextures.com/patterns/brushed-alum-dark.png");
@@ -7,6 +10,10 @@ margin:0px;
   padding:0px;
    height:100%;
 }
+* {
+  margin: 0;
+}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -78,7 +85,10 @@ h2 {
 
 #container {
    min-height:100%;
-   position:fixed;
+   height: auto !important;
+   height: 100%;
+   margin: 0 auto -155px;
+   position:absolute;
 }
 
 #body {
