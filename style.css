@@ -94,6 +94,26 @@ p {
 
 }
 
+@media (max-width: 767px) {
+  h1
+  h2 {
+    text-align: center;
+  }
+
+  .profile-content {
+    float: none !important;
+    text-align: center;
+  }
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+  .container {
+    width: 1360px;
+  }
+}
+
 
 
 
