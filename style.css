@@ -49,13 +49,21 @@ section {
 }
 
 @font-face {
-  font-family: BebasNeue;
-  src: url('BebasNeue.otf');
+    font-family: 'BebasNeue';
+    src: url('bebasneue-webfont.eot');
+    src: url('bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bebasneue-webfont.woff2') format('woff2'),
+         url('bebasneue-webfont.woff') format('woff'),
+         url('bebasneue-webfont.ttf') format('truetype'),
+         url('bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 h1 {
 	text-align: center;
-  font-family: 'BebasNeue';
+  font-family: 'BebasNeue' ;
   font-size: 70px;
   
 
