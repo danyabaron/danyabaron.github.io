@@ -88,7 +88,7 @@ h2 {
    height: auto !important;
    height: 100%;
    margin: 0 auto -155px;
-   position:relative;
+   position:fixed;
 }
 
 #body {
