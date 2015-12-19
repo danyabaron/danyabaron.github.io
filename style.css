@@ -50,7 +50,7 @@ section {
 
 @font-face {
   font-family: BebasNeue;
-  src: url(BebasNeue.otf);
+  src: url('BebasNeue.otf');
 }
 
 h1 {
