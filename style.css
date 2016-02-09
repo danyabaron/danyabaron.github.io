@@ -11,6 +11,10 @@ body {
   padding:0px;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
