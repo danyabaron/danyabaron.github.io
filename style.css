@@ -7,9 +7,9 @@ body {
 	background-color: #d9d9ff ;
 background-image: url("http://www.transparenttextures.com/patterns/brushed-alum-dark.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-margin:0 0 100px;
+  margin:0 0 100px;
   padding:0px;
-  background-size: cover
+  background-size: cover;
 }
 
 .starter-template {
