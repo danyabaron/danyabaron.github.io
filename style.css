@@ -2,6 +2,8 @@
 html {
   position: relative;
   min-height: 100%;
+  zoom: .8; 
+
 }
 body {
 	background-color: #d9d9ff;
