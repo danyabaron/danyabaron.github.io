@@ -15,10 +15,10 @@
 
 /* defining css variables to use throughout styling for primary colors in the site* for background*/
 :root {
-    --color-bg: #1f1f38;
+    --color-bg: #665395; 
     --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-primary: #C0C8F9;
+    --color-primary-variant: #2c2c6c;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -58,6 +58,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-weight: 500;
+    /* -webkit-text-stroke: 1px black; */
 }
 
 h1 {
