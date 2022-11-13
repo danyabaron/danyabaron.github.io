@@ -27,7 +27,7 @@
     /* width of container class*/
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%;
+    --container-width-sm: 90%;
 }
 
 html {
@@ -133,7 +133,7 @@ img {
 
     section{
         margin-top: 6rem;
-        height: 100vh;
+        /* height: 100vh; */
     }
 }
 
