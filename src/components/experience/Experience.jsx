@@ -1,15 +1,19 @@
 import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import Fade from 'react-reveal/Fade'
 
 const Experience = () => {
     return (
         <section id='experience'>
-            <h5>What Skills I Have</h5>
-            <h2>My Experience</h2>
+            <Fade bottom>
+                <h5>What Skills I Have</h5>
+                <h2>My Experience</h2>
+
+            </Fade>
 
             <div className="container experience_container">
-
+                <Fade top>
                 {/* Front end Section */}
                 <div className="experience_frontend">
                     <h3>Frontend Development</h3>
@@ -51,7 +55,9 @@ const Experience = () => {
                         </article>
                     </div>
                 </div>
+                </Fade>
 
+                    <Fade top>
                     {/* Backend Section */}
                     <div className="experience_backend">
                     <h3>Backend Development</h3>
@@ -90,6 +96,7 @@ const Experience = () => {
                         </article>
                     </div>
                 </div>
+                </Fade>
 
             </div>
         </section>
