@@ -6,18 +6,8 @@
     height: 100%;
     position: relative;
     padding-top: 4rem;
+
 }
-
-#about h5 {
-    padding-top: 3rem;
-}
-
-.about_container p {
-    font-size: large;
-    width: 100%;
-}
-
-
 
 
 /* === Media Queries (medium devices) ==== */
@@ -27,17 +17,12 @@
     #about {
         width: 100%; 
         padding-top: 20rem; 
-        height: 100vh; 
+        height: 68vh; 
     }
 
 
-
-
-    .about_container  {
+    .about_content p {
         margin: 1rem 0 1.5rem;
-        width: 100%;
-        height: 68vh; 
-        
      }
 
 
@@ -51,19 +36,12 @@
         padding-top: 4rem;
         height: 100vh;
     }
-
-
-    .about_container  {
-        /* margin: 1rem 0 1.5rem; */
-        width: 100%;
-        height: 68vh; 
-        
-     }
-
 }
 
 
-
+/* h1, h5 {
+    padding: 6rem;
+} */
 
 
 

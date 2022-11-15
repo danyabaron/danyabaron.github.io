@@ -4,7 +4,7 @@ import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocial from './HeaderSocials'
 import Zoom from 'react-reveal/Zoom'
-import Fade from 'react-reveal/Fade'
+import Fade from 'react-reveal/Fade';
 
 
 // header component of site
