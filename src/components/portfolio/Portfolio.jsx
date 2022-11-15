@@ -26,8 +26,8 @@ const Portfolio = () => {
                         7Factor Website
                     </h3>
                     <h5>
-                        My senior year project at WPI. Our team created this website using the design mockups we received 
-                        from scratch in ReactJS.
+                        My senior year project at WPI. Our team of four created 7Factor's corporate website using ReactJS and NodeJS. We were given 
+                        design mockups to recreate, but built the website from scratch.
                     </h5>
                     <div className="portfolio_item-cta">
                         <a href="https://www.7factor.io/" target="_blank" className="btn"> Project Website </a>
