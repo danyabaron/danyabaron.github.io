@@ -5,102 +5,105 @@ import Fade from 'react-reveal/Fade'
 
 const Experience = () => {
     return (
-        <section id='experience'>
-            <Fade bottom>
-                <h5>What Skills I Have</h5>
-                <h2>My Experience</h2>
+            <section id='experience'>
+                {/* fade effect for headers */}
+                <Fade bottom>
+                    <h5>What Skills I Have</h5>
+                    <h2>My Experience</h2>
 
-            </Fade>
-
-            <div className="container experience_container">
-                <Fade top>
-                {/* Front end Section */}
-                <div className="experience_frontend">
-                    <h3>Frontend Development</h3>
-                    <div className="experience_content">
-                        <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
-                            <div>
-                                <h4>HTML</h4>
-                                <small className="text-light">Experienced</small>
-                            </div>
-                            
-                        </article>
-
-                        <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
-                            <div>
-                                <h4>CSS</h4>
-                                <small className="text-light">Intermediate</small>
-                            </div>
-                           
-                        </article>
-                        
-                        <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
-                            <div>
-                                <h4>JavaScript</h4>
-                                <small className="text-light">Intermediate</small>
-                            </div>
-                            
-                        </article>
-                        
-                        <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
-                            <div>
-                                <h4>React</h4>
-                                <small className="text-light">Intermediate</small>
-                            </div>
-                            
-                        </article>
-                    </div>
-                </div>
                 </Fade>
 
+                <div className="container experience_container">
                     <Fade top>
-                    {/* Backend Section */}
-                    <div className="experience_backend">
-                    <h3>Backend Development</h3>
-                    <div className="experience_content">
-                        <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
-                            <div>
-                                <h4>Java</h4>
-                                <small className="text-light">Intermediate</small>
-                            </div>
-                            
-                        </article>
+                    {/* Front end Section */}
+                    <div className="experience_frontend">
+                        <h3>Frontend Development</h3>
+                        <div className="experience_content">
+                            {/* used article to keep content independent and contained for easier styling */}
+                            <article className="experience_details">
+                                <BsPatchCheckFill className="experience_details-icon"/>
+                                <div>
+                                    <h4>HTML</h4>
+                                    <small className="text-light">Experienced</small>
+                                </div>
+                                
+                            </article>
 
-                        <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
-                            <div>
-                                <h4>Python</h4>
-                                <small className="text-light">Intermediate</small>
-                            </div>
+                            <article className="experience_details">
+                                <BsPatchCheckFill className="experience_details-icon"/>
+                                <div>
+                                    <h4>CSS</h4>
+                                    <small className="text-light">Intermediate</small>
+                                </div>
                             
-                        </article>
-                        
-                        <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
-                            <div>
-                                <h4>Node JS</h4>
-                                <small className="text-light">Beginner</small>
-                            </div>
-                        </article>
-                        <article className="experience_details">
-                            <BsPatchCheckFill className="experience_details-icon"/>
-                            <div>
-                                <h4>Git/Github</h4>
-                                <small className="text-light">Intermediate</small>
-                            </div>
-                        </article>
+                            </article>
+                            
+                            <article className="experience_details">
+                                <BsPatchCheckFill className="experience_details-icon"/>
+                                <div>
+                                    <h4>JavaScript</h4>
+                                    <small className="text-light">Intermediate</small>
+                                </div>
+                                
+                            </article>
+                            
+                            <article className="experience_details">
+                                <BsPatchCheckFill className="experience_details-icon"/>
+                                <div>
+                                    <h4>React</h4>
+                                    <small className="text-light">Intermediate</small>
+                                </div>
+                                
+                            </article>
+                        </div>
                     </div>
-                </div>
-                </Fade>
+                    </Fade>
 
-            </div>
-        </section>
-    )
-}
+
+                        <Fade top>
+                        {/* Backend Section */}
+                        <div className="experience_backend">
+                        <h3>Backend Development</h3>
+                        <div className="experience_content">
+                            <article className="experience_details">
+                                <BsPatchCheckFill className="experience_details-icon"/>
+                                <div>
+                                    <h4>Java</h4>
+                                    <small className="text-light">Intermediate</small>
+                                </div>
+                                
+                            </article>
+
+                            <article className="experience_details">
+                                <BsPatchCheckFill className="experience_details-icon"/>
+                                <div>
+                                    <h4>Python</h4>
+                                    <small className="text-light">Intermediate</small>
+                                </div>
+                                
+                            </article>
+                            
+                            <article className="experience_details">
+                                <BsPatchCheckFill className="experience_details-icon"/>
+                                <div>
+                                    <h4>Node JS</h4>
+                                    <small className="text-light">Beginner</small>
+                                </div>
+                            </article>
+                            <article className="experience_details">
+                                <BsPatchCheckFill className="experience_details-icon"/>
+                                <div>
+                                    <h4>Git/Github</h4>
+                                    <small className="text-light">Intermediate</small>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    </Fade>
+
+                </div>
+            </section>
+        )
+    }
 
 export default Experience

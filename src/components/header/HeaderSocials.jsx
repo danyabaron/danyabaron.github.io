@@ -9,9 +9,6 @@ const HeaderSocials = () => {
         <div className='header_socials'>
             <a href="https://www.linkedin.com/in/danyabaron/" target="_blank"><BsLinkedin/></a>
             <a href="https://github.com/danyabaron" target="_blank"><FaGithub/></a>
-            
-
-            
         </div>
     )
 }

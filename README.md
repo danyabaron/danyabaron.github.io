@@ -2,4 +2,4 @@ My Portolio website built with ReactJS
 
 ## To Run
 
-npm start
+Download project files, and run 'npm start' to run website locally.

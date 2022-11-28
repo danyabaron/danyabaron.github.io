@@ -15,7 +15,8 @@
 
 /* defining css variables to use throughout styling for primary colors in the site* for background*/
 :root {
-    --color-bg: #665395; 
+    /* background color */
+    --color-bg: #665395;  
     --color-bg-variant: #2c2c6c;
     --color-primary: #C0C8F9;
     --color-primary-variant: #2c2c6c;
@@ -58,7 +59,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-weight: 500;
-    /* -webkit-text-stroke: 1px black; */
+  
 }
 
 h1 {
@@ -123,6 +124,8 @@ img {
     width: 100%;
     object-fit:cover;
 }
+
+/* sizing for ipad and iphone sizes */
 
 /* === Media Queries (medium devices) ==== */
 

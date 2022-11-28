@@ -9,8 +9,6 @@ footer {
 
 footer a {
     color: var(--color-bg);
-
-
 }
 
 .footer_logo {
@@ -31,12 +29,4 @@ footer a {
 .footer_copyright {
     margin-bottom: 4rem;
     color: var(--color-bg);
-}
-
-/* === Media Queries (small devices) ==== */
-
-@media screen and (max-width: 600px) {
-    .permalinks {
-        
-    }
 }
