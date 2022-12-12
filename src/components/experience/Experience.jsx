@@ -17,7 +17,7 @@ const Experience = () => {
                     <Fade top>
                     {/* Front end Section */}
                     <div className="experience_frontend">
-                        <h3>Frontend Development</h3>
+                        <h3>Frontend Development and Design Skills</h3>
                         <div className="experience_content">
                             {/* used article to keep content independent and contained for easier styling */}
                             <article className="experience_details">
@@ -46,6 +46,15 @@ const Experience = () => {
                                 </div>
                                 
                             </article>
+
+                            <article className="experience_details">
+                                <BsPatchCheckFill className="experience_details-icon"/>
+                                <div>
+                                    <h4>Sketch</h4>
+                                    <small className="text-light">Beginner</small>
+                                </div>
+                                
+                            </article>
                             
                             <article className="experience_details">
                                 <BsPatchCheckFill className="experience_details-icon"/>
@@ -69,7 +78,7 @@ const Experience = () => {
                                 <BsPatchCheckFill className="experience_details-icon"/>
                                 <div>
                                     <h4>Java</h4>
-                                    <small className="text-light">Intermediate</small>
+                                    <small className="text-light">Beginner</small>
                                 </div>
                                 
                             </article>
@@ -94,7 +103,7 @@ const Experience = () => {
                                 <BsPatchCheckFill className="experience_details-icon"/>
                                 <div>
                                     <h4>Git/Github</h4>
-                                    <small className="text-light">Intermediate</small>
+                                    <small className="text-light">Beginner</small>
                                 </div>
                             </article>
                         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Resume from '../../assets/Resume.pdf'
+import Resume from '../../assets/Danya_Baron_Resume.pdf'
 
 
  // call to action component for buttons in header

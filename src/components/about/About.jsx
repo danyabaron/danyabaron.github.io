@@ -18,11 +18,11 @@ const about = () => {
             
               
                     <p>
-                    I am a driven and ambitious problem solver who likes to tackle problems head-on. My interest
-                in development started when I was in middle school and wanted to create custom Tumblr themes. I have my BS in Computer
-                Science from WPI, and I am a Girls Who Code alumna. I have an interest in front-end as well as full stack development,
-                and have a vast experience of using different tools and technologies. In addition to development, I love to learn about astrology, exercise, cook, dance, and
-                do yoga. 
+                        I have my bachelors degree in Computer Science from WPI, as well as experience in many different technologies and tools. I currently am interested in UI/UX design and development roles, 
+                        and front-end development. My interest in technology took place when I was younger and wanted to create my own custom Tumblr themes. In high school, I participated in the Girls Who Code 
+                        Summer Program where my interest in technology deepened. I have a strong interest in design and user experience, as I am always thinking of ways to make a product easier and more fun to use. My technology skills, combined with
+                        my passion for art, allow me to offer a perspective that is unique.
+                        In my free time, I love to read, cook, do yoga, make art, dance and work out. 
                     </p>
 
             
