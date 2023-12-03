@@ -1,5 +1,9 @@
-My Portolio website built with ReactJS
+## Projects from Fall Semester 2023
 
-## To Run
+My final project for DIG6647.
 
-Download project files, and run 'npm start' to run website locally.
+[Click to Open Site](https://danyabaron.github.io/dig6647finalproj/)
+
+Projects from my DIG5508 class in p5.js
+
+[Click to view projects](https://danyabaron.github.io/dig5508projects/)
